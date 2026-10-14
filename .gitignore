@@ -1,0 +1,25 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env
+
+# Dependencies
+node_modules/
+backend/venv/
+backend/.pytest_cache/
+
+# Builds
+frontend/dist/
+backend/dist/
+backend/build/
+
+# Database
+*.db
+*.sqlite3
+backend/disaster_platform.db
